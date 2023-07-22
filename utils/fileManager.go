@@ -13,7 +13,7 @@ func createFile(filePath string) {
 		currentBuiltPath += "/"
 	}
 	fileFolderSections := strings.Split(filePath, "/")
-	dirCreationStop := len(fileFolderSections) - 1
+	dirCreationStop := len(fileFolderSections) - 2
 	isDirectory := filePath[len(filePath)-1] == '/'
 	if isDirectory {
 		dirCreationStop += 1
@@ -29,7 +29,7 @@ func createFile(filePath string) {
 	}
 
 	if !isDirectory {
-		currentBuiltPath := currentBuiltPath + fileFolderSections[len(fileFolderSections)-1]
+		currentBuiltPath += fileFolderSections[len(fileFolderSections)-1]
 		if _, err := os.Create(currentBuiltPath); err != nil {
 			panic(err)
 		}
