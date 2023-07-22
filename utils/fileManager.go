@@ -13,7 +13,7 @@ func createFile(filePath string) {
 		currentBuiltPath += "/"
 	}
 	fileFolderSections := strings.Split(filePath, "/")
-	dirCreationStop := len(fileFolderSections) - 2
+	dirCreationStop := len(fileFolderSections) - 1
 	isDirectory := filePath[len(filePath)-1] == '/'
 	if isDirectory {
 		dirCreationStop += 1
@@ -34,7 +34,7 @@ func createFile(filePath string) {
 			panic(err)
 		}
 	}
-	fmt.Printf("mkpath-MSG: Created: %s.\n", currentBuiltPath)
+	fmt.Printf("mkpath-MSG: Created: %s\n", currentBuiltPath)
 }
 
 func pathExists(path string) bool {
