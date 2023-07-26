@@ -1,7 +1,7 @@
 <p align="center">
 <h1>mkpath</h1>
 
-[![version - alpha](https://img.shields.io/badge/version-alpha-?logo=checkmarx#E3BE39)](https://)
+[![version - alpha](https://img.shields.io/static/v1?label=version&message=alpha&color=%23EB508D&logo=protondrive)](https://)
 [![tests - non-existent](https://img.shields.io/static/v1?label=tests&message=non-existent&color=%2300ADD8&logo=go)](https://)
 
 <hr/>
