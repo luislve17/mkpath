@@ -1,5 +1,5 @@
-<center>
-# mkpath
+<p align="center">
+<h1>mkpath</h1>
 
 [![version - alpha](https://img.shields.io/badge/version-alpha-?logo=checkmarx#E3BE39)](https://)
 [![tests - not-failing](https://img.shields.io/badge/tests-not--failing-2ea44f?logo=go)](https://)
@@ -7,7 +7,7 @@
 <hr/>
 
 mkdir + touch made simple with go
-<center/>
+</p>
 
 ### Installation
 
