@@ -1,13 +1,12 @@
-<p align="center">
-<h1>mkpath</h1>
+# mkpath
 
 [![version - alpha](https://img.shields.io/static/v1?label=version&message=alpha&color=%23EB508D&logo=protondrive)](https://)
 [![tests - non-existent](https://img.shields.io/static/v1?label=tests&message=non-existent&color=%2300ADD8&logo=go)](https://)
 
+> mkdir + touch made simple with go
+
 <hr/>
 
-mkdir + touch made simple with go
-</p>
 
 ### Installation
 
