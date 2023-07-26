@@ -8,10 +8,6 @@ import (
 
 func createFile(filePath string) {
 	currentBuiltPath := ""
-	if isRootedFolder := filePath[0] == '/'; isRootedFolder {
-		fmt.Println("mkpath-DEBUG: Rooted folder")
-		currentBuiltPath += "/"
-	}
 	fileFolderSections := strings.Split(filePath, "/")
 	dirCreationStop := len(fileFolderSections) - 1
 	isDirectory := filePath[len(filePath)-1] == '/'
