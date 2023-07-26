@@ -12,6 +12,6 @@
 
 * [ ] Create installation script for curl/wget.
 
-### A. Liability
+### Liability
 
 `mkpath` is currently under development, and it should be emphasize that I am not liable for any malfunctions or issues that may occur from using it. Use it at your own risk.
