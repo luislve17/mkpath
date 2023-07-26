@@ -65,6 +65,8 @@ foo
 ### To-Do list
 
 * [ ] Create installation script for curl/wget.
+* [ ] Improve logging system with colors
+* [ ] Support folder overwritting into empty subfolders
 
 ### Liability
 
