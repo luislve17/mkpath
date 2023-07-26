@@ -4,13 +4,13 @@
 
 ### Installation
 
-* Go to the releases page and download binary
+* Go to the releases page and download binary.
 * Move the binary to any location you want to use it locally, or include it in a path considered by your `$PATH` environment variable. `~/.local/bin` might be a good place.
 * Enjoy
 
 ### To-Do list
 
-* [ ] Create installation script for curl/wget
+* [ ] Create installation script for curl/wget.
 
 ### A. Liability
 
